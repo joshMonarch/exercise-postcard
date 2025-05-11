@@ -1,0 +1,77 @@
+body {
+	background-color: #000000;
+}
+
+h1,
+p,
+input,
+button {
+	font-family: "Dancing Script";
+}
+
+p {
+	overflow: auto;
+}
+
+input {
+	border: none;
+	border-bottom: 1px solid lightslategray;
+	width: 100%;
+	padding-top: 8px;
+}
+
+input:focus {
+	outline: thin solid lightgray;
+	border-bottom: 1px solid gray;
+}
+
+button {
+	border: none;
+	background-color: #d4d4d4;
+	cursor: pointer;
+	text-transform: capitalize;
+}
+
+button:hover {
+	background-color: rgb(185, 185, 185);
+}
+
+img {
+	width: 70px;
+	height: 70px;
+}
+
+.pc-header,
+.pc-body,
+.pc-footer,
+.postcard {
+	display: flex;
+}
+
+.postcard {
+	padding: 10px 20px 10px 10px;
+	width: 400px;
+	background-color: #fff;
+	flex-direction: column;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.pc-title {
+	flex-grow: 2;
+}
+
+.pc-text {
+	max-width: 50%;
+}
+
+.pc-input {
+	padding: 0 10px 0 10px;
+}
+
+.pc-footer {
+	justify-content: center;
+	padding-bottom: 20px;
+}
